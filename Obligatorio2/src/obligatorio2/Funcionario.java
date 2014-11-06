@@ -11,5 +11,13 @@ package obligatorio2;
  * @author alumnoFI
  */
 public class Funcionario extends Persona {
+
+    public Funcionario() {
+    }
+
+    @Override
+    public String toString() {
+        return "Funcionario{" + '}';
+    }
     
 }

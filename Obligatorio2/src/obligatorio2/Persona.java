@@ -22,7 +22,7 @@ public class Persona {
     String telefono;
 
     public Persona() {
-       cedula="1111111-1";
+        cedula="1111111-1";
         nombre="Pedro";
         apellido="Gonzalez";
         direccion="Cuareim 1451";
