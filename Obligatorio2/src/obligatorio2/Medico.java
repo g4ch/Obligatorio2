@@ -10,6 +10,6 @@ package obligatorio2;
  *
  * @author alumnoFI
  */
-class Medico {
-    
+class Medico extends Funcionario{
+    String especialidad="Cardiologia";    
 }
