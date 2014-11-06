@@ -10,6 +10,6 @@ package obligatorio2;
  *
  * @author alumnoFI
  */
-public class Afiliado {
+public class Afiliado extends Persona {
     
 }
