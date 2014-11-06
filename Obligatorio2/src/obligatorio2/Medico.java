@@ -11,5 +11,18 @@ package obligatorio2;
  * @author alumnoFI
  */
 class Medico extends Funcionario{
-    String especialidad="Cardiologia";    
+    String especialidad;
+
+    public Medico() {
+        especialidad="Cardiologia";
+    }
+
+    public String getEspecialidad() {
+        return especialidad;
+    }
+
+    public void setEspecialidad(String especialidad) {
+        this.especialidad = especialidad;
+    }
+    
 }
