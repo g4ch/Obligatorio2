@@ -13,13 +13,23 @@ import java.util.Date;
  * @author alumnoFI
  */
 public class Persona {
-    String cedula="1111111-1";
-    String nombre="Pedro";
-    String apellido="Gonzalez";
-    String direccion="Cuareim 1451";
-    Date nacimiento=new Date();
-    String email="pgonzalez@gmail.com";
-    String telefono="094123456";
+    String cedula;
+    String nombre;
+    String apellido;
+    String direccion;
+    Date nacimiento;
+    String email;
+    String telefono;
+
+    public Persona() {
+       cedula="1111111-1";
+        nombre="Pedro";
+        apellido="Gonzalez";
+        direccion="Cuareim 1451";
+        nacimiento=new Date();
+        email="pgonzalez@gmail.com";
+        telefono="094123456";
+    }
 
     public String getCedula() {
         return cedula;

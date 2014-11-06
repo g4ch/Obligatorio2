@@ -11,7 +11,14 @@ package obligatorio2;
  * @author alumnoFI
  */
 public class Afiliado extends Persona {
-    Medico medico=new Medico();
-    Sucursal sucursal=new Sucursal();
-    Historia historia=new Historia();
+    Medico medico;
+    Sucursal sucursal;
+    Historia historia;
+
+    public Afiliado() {
+        medico=new Medico();
+        sucursal=new Sucursal();
+        historia=new Historia();
+    }
+    
 }
